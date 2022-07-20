@@ -4,6 +4,12 @@
   --second-main-color: #757575;
   --third-main-color: #ffffff;
 }
+.conteiner {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .logo {
   text-decoration: none;
 }
@@ -29,6 +35,11 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+.header-links,
+.header-link {
+  padding: 0;
+  margin: 0;
 }
 
 .header-links,
@@ -76,6 +87,8 @@ body {
   border: 1px solid #000000;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background: #2f303a;
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 .hero-button {
   font-family: "Roboto", sans-serif;
@@ -90,6 +103,9 @@ body {
   background: var(--main-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 216px;
+  margin-bottom: 294px;
 }
 .hero-button:hover {
   background-color: #188ce8;
@@ -98,7 +114,8 @@ body {
 .hero-button:focus {
   background-color: #188ce8;
 }
-
+.conteiner-hero {
+}
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -118,26 +135,37 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-color-text);
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
 }
 .benefits-lists {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: var(--second-main-color);
+  padding: 0;
+  margin: 0;
 }
-.works .team {
+.works,
+.team {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-color-text);
+  padding: 0;
+  margin: 0;
+  margin-bottom: 50px;
 }
 .benefits-li,
 .works-li,
 .our-team,
 .footer-li {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .people {
   font-weight: 500;
@@ -145,12 +173,17 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--main-color-text);
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
 }
 .skills {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--second-main-color);
+  padding: 0;
+  margin: 0;
 }
 .footer-studio {
   font-weight: 700;
@@ -205,6 +238,8 @@ body {
   background: #f5f4fa;
   border-radius: 4px;
   border: none;
+  padding: 6px 22px;
+  min-width: 73px;
 }
 .projects {
   font-weight: 700;
