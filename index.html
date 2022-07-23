@@ -19,13 +19,13 @@
   </head>
   <body>
     <div class="conteiner">
-      <header>
-        <nav>
+      <header class="header">
+        <nav class="header-nav">
           <a class="logo" href="./index.html" lang="en">
             <span class="logo-web">Web</span
             ><span class="logo-studio">Studio</span>
           </a>
-          <ul>
+          <ul class="conteiner-header-links">
             <li class="header-links">
               <a class="header-link" href="./index.html">Студія</a>
             </li>
@@ -36,7 +36,7 @@
               <a class="header-link" href="">Контакти</a>
             </li>
           </ul>
-          <ul>
+          <ul class="conteiner-header-contacts">
             <li class="header-links">
               <a class="header-link-style" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
@@ -53,137 +53,147 @@
     </div>
     <main>
       <div class="conteiner-hero">
-        <section>
+        <section class="hero-section">
           <h1 class="hero">Ефективні рішення для вашого бізнесу</h1>
           <button class="hero-button" type="button">Замовити послугу</button>
         </section>
       </div>
-      <section>
-        <h2 class="visually-hidden">Переваги</h2>
-        <ul>
-          <li class="benefits-li">
-            <h3 class="benefits">Увага до деталей</h3>
-            <p class="benefits-lists">
-              Ідейні міркування, а також початок повсякденної роботи з
-              формування позиції.
-            </p>
-          </li>
-          <li class="benefits-li">
-            <h3 class="benefits">Пунктуальність</h3>
-            <p class="benefits-lists">
-              Завдання організації, особливо ж рамки та місце навчання кадрів
-              веде за собою.
-            </p>
-          </li>
-          <li class="benefits-li">
-            <h3 class="benefits">Планування</h3>
-            <p class="benefits-lists">
-              Також консультація з широким спектром у значній мірі зумовлює.
-            </p>
-          </li>
-          <li class="benefits-li">
-            <h3 class="benefits">Сучасні технології</h3>
-            <p class="benefits-lists">
-              Значимість цих проблем настільки очевидна, що реалізація планових
-              завдань.
-            </p>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h2 class="works">Чим ми займаємось</h2>
-        <ul>
-          <li class="works-li">
-            <img
-              src="./box1.jpg"
-              alt="набирає текст на ноутбуці"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li class="works-li">
-            <img
-              src="./box2.jpg"
-              alt="звіряє з телефоном"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li class="works-li">
-            <img
-              src="./box-3.jpg"
-              alt="підбирає колір"
-              width="370"
-              height="294"
-            />
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h2 class="team">Наша команда</h2>
-        <ul>
-          <li class="our-team">
-            <img
-              src="./img1.jpg"
-              alt="продакт дизайнер"
-              width="270"
-              height="260"
-            />
-            <h3 class="people">Ігор Дем'яненко</h3>
-            <p class="skills">Product Designer</p>
-          </li>
-          <li class="our-team">
-            <img
-              src="./img2.jpg"
-              alt="фронтенд розробник"
-              width="270"
-              height="260"
-            />
-            <h3 class="people">Ольга Репіна</h3>
-            <p class="skills">Frontend Developer</p>
-          </li>
-          <li class="our-team">
-            <img src="./img3.jpg" alt="Маркетолог" width="270" height="260" />
-            <h3 class="people">Микола Тарасов</h3>
-            <p class="skills">Marketing</p>
-          </li>
-          <li class="our-team">
-            <img
-              src="./img4.jpg"
-              alt="дизайнер інтерфейсу користувача"
-              width="270"
-              height="260"
-            />
-            <h3 class="people">Михайло Єрмаков</h3>
-            <p class="skills">UI Designer</p>
-          </li>
-        </ul>
-      </section>
-    </main>
-    <footer class="footer-background">
-      <div>
-        <a class="logo" href="./index.html"
-          ><span class="logo-web">Web</span
-          ><span class="footer-studio">Studio</span></a
-        >
-        <address class="footer-address">
-          м. Київ, пр-т Лесі Українки, 26
-        </address>
-        <address>
-          <ul>
-            <li class="footer-li">
-              <a class="footer-contacts" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
+      <div class="conteiner-benefits">
+        <section class="benefits-section">
+          <h2 class="visually-hidden">Переваги</h2>
+          <ul class="conteiner-benefits-li">
+            <li class="benefits-li type">
+              <h3 class="benefits attention">Увага до деталей</h3>
+              <p class="benefits-lists">
+                Ідейні міркування, а також початок повсякденної роботи з
+                формування позиції.
+              </p>
             </li>
-            <li class="footer-li">
-              <a class="footer-contacts" href="telto:+380961111111"
-                >+380961111111</a
-              >
+            <li class="benefits-li type">
+              <h3 class="benefits">Пунктуальність</h3>
+              <p class="benefits-lists">
+                Завдання організації, особливо ж рамки та місце навчання кадрів
+                веде за собою.
+              </p>
+            </li>
+            <li class="benefits-li type">
+              <h3 class="benefits">Планування</h3>
+              <p class="benefits-lists">
+                Також консультація з широким спектром у значній мірі зумовлює.
+              </p>
+            </li>
+            <li class="benefits-li">
+              <h3 class="benefits">Сучасні технології</h3>
+              <p class="benefits-lists">
+                Значимість цих проблем настільки очевидна, що реалізація
+                планових завдань.
+              </p>
             </li>
           </ul>
-        </address>
+        </section>
       </div>
-    </footer>
+      <div class="container-works">
+        <section>
+          <h2 class="works">Чим ми займаємось</h2>
+          <ul class="img-works">
+            <li class="works-li">
+              <img
+                src="./box1.jpg"
+                alt="набирає текст на ноутбуці"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li class="works-li">
+              <img
+                src="./box2.jpg"
+                alt="звіряє з телефоном"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li class="works-li">
+              <img
+                src="./box-3.jpg"
+                alt="підбирає колір"
+                width="370"
+                height="294"
+              />
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="conteiner-team">
+        <section class="section-team">
+          <h2 class="team">Наша команда</h2>
+          <ul class="team-list">
+            <li class="our-team">
+              <img
+                src="./img1.jpg"
+                alt="продакт дизайнер"
+                width="270"
+                height="260"
+              />
+              <h3 class="people">Ігор Дем'яненко</h3>
+              <p class="skills">Product Designer</p>
+            </li>
+            <li class="our-team">
+              <img
+                src="./img2.jpg"
+                alt="фронтенд розробник"
+                width="270"
+                height="260"
+              />
+              <h3 class="people">Ольга Репіна</h3>
+              <p class="skills">Frontend Developer</p>
+            </li>
+            <li class="our-team">
+              <img src="./img3.jpg" alt="Маркетолог" width="270" height="260" />
+              <h3 class="people">Микола Тарасов</h3>
+              <p class="skills">Marketing</p>
+            </li>
+            <li class="our-team">
+              <img
+                src="./img4.jpg"
+                alt="дизайнер інтерфейсу користувача"
+                width="270"
+                height="260"
+              />
+              <h3 class="people">Михайло Єрмаков</h3>
+              <p class="skills">UI Designer</p>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <div class="conteiner-footer">
+      <footer class="footer-background">
+        <div class="footer-section">
+          <div class="footer-logo">
+            <a class="logo" href="./index.html"
+              ><span class="logo-web">Web</span
+              ><span class="footer-studio">Studio</span></a
+            >
+          </div>
+          <address class="footer-address">
+            м. Київ, пр-т Лесі Українки, 26
+          </address>
+          <address class="footer-address">
+            <ul class="footer-ul">
+              <li class="footer-li">
+                <a class="footer-contacts" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="footer-li">
+                <a class="footer-contacts" href="telto:+380961111111"
+                  >+380961111111</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
