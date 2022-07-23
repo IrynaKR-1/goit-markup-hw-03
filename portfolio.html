@@ -16,57 +16,62 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="header-portfolio">
-      <nav>
-        <a class="logo" href="./index.html" lang="en">
-          <span class="logo-web">Web</span
-          ><span class="logo-studio">Studio</span>
-        </a>
-        <ul>
-          <li class="header-links">
-            <a class="header-link" href="./index.html">Студія</a>
-          </li>
-          <li class="header-links">
-            <a class="header-link" href="./portfolio.html">Портфоліо</a>
-          </li>
-          <li class="header-links">
-            <a class="header-link" href="">Контакти</a>
-          </li>
-        </ul>
-        <ul>
-          <li class="header-links">
-            <a class="header-link-style" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="header-links">
-            <a class="header-link-style" href="telto:+380961111111"
-              >+380961111111</a
-            >
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <div class="conteiner">
+      <header class="header">
+        <nav class="header-nav">
+          <a class="logo" href="./index.html" lang="en">
+            <span class="logo-web">Web</span
+            ><span class="logo-studio">Studio</span>
+          </a>
+          <ul class="conteiner-header-links">
+            <li class="header-links">
+              <a class="header-link" href="./index.html">Студія</a>
+            </li>
+            <li class="header-links">
+              <a class="header-link" href="./portfolio.html">Портфоліо</a>
+            </li>
+            <li class="header-links">
+              <a class="header-link" href="">Контакти</a>
+            </li>
+          </ul>
+          <ul class="conteiner-header-contacts">
+            <li class="header-links">
+              <a class="header-link-style" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="header-links">
+              <a class="header-link-style" href="telto:+380961111111"
+                >+380961111111</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
     <main>
       <h1 class="visually-hidden">Портфоліо</h1>
-      <ul class="portfolio-li">
-        <li class="portfolio-items">
-          <button class="button-portfolio" type="button">Все</button>
-        </li>
-        <li class="portfolio-items">
-          <button class="button-portfolio" type="button">Веб-сайти</button>
-        </li>
-        <li class="portfolio-items">
-          <button class="button-portfolio" type="button">Застосунки</button>
-        </li>
-        <li class="portfolio-items">
-          <button class="button-portfolio" type="button">Дизайн</button>
-        </li>
-        <li class="portfolio-items">
-          <button class="button-portfolio" type="button">Маркетинг</button>
-        </li>
-      </ul>
+      <div class="portfolio-li-conteiner">
+        <ul class="portfolio-li">
+          <li class="portfolio-items">
+            <button class="button-portfolio" type="button">Все</button>
+          </li>
+          <li class="portfolio-items">
+            <button class="button-portfolio" type="button">Веб-сайти</button>
+          </li>
+          <li class="portfolio-items">
+            <button class="button-portfolio" type="button">Застосунки</button>
+          </li>
+          <li class="portfolio-items">
+            <button class="button-portfolio" type="button">Дизайн</button>
+          </li>
+          <li class="portfolio-items">
+            <button class="button-portfolio" type="button">Маркетинг</button>
+          </li>
+        </ul>
+      </div>
       <h2 class="visually-hidden">Всі продукти компанії</h2>
+
       <ul class="products-ul">
         <li class="products-of-company">
           <img
@@ -169,30 +174,34 @@
         </li>
       </ul>
     </main>
-    <footer class="footer-background">
-      <div>
-        <a class="logo" href="./index.html"
-          ><span class="logo-web" footer-studio>Web</span
-          ><span class="footer-studio">Studio</span></a
-        >
-        <address class="footer-address">
-          м. Київ, пр-т Лесі Українки, 26
-        </address>
-        <address>
-          <ul>
-            <li class="footer-li">
-              <a class="footer-contacts" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="footer-li">
-              <a class="footer-contacts" href="telto:+380961111111"
-                >+380961111111</a
-              >
-            </li>
-          </ul>
-        </address>
-      </div>
-    </footer>
+    <div class="conteiner-footer">
+      <footer class="footer-background">
+        <div class="footer-section">
+          <div class="footer-logo">
+            <a class="logo" href="./index.html"
+              ><span class="logo-web">Web</span
+              ><span class="footer-studio">Studio</span></a
+            >
+          </div>
+          <address class="footer-address">
+            м. Київ, пр-т Лесі Українки, 26
+          </address>
+          <address class="footer-address">
+            <ul class="footer-ul">
+              <li class="footer-li">
+                <a class="footer-contacts" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="footer-li">
+                <a class="footer-contacts" href="telto:+380961111111"
+                  >+380961111111</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>

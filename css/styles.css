@@ -373,8 +373,20 @@ body {
 /* portfolio */
 .portfolio-li {
   margin-bottom: 50px;
+  padding: 0;
+  flex-wrap: nowrap;
+  display: flex;
+  justify-content: center;
+  column-gap: 8px;
 }
-
+.portfolio-li-conteiner {
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.portfolio-items {
+  padding: 0;
+}
 .button-portfolio:hover {
   background-color: var(--main-color);
 }
@@ -401,17 +413,35 @@ body {
   min-width: 73px;
 }
 .projects {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-color-text);
 }
+.products-ul {
+  width: 1600px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #757575;
+  justify-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 30px;
+  padding-left: 215px;
+  padding-right: 215px;
+}
 .products-of-company {
+  width: 370px;
+  height: 404px;
   list-style: none;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-color-text);
+  background: #ffffff;
+  border: 1px solid #eeeeee;
 }
 .product-name {
   font-size: 16px;
