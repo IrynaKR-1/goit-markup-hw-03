@@ -13,6 +13,7 @@ img {
 }
 h2,
 ul,
+li,
 p {
   margin: 0;
 }
@@ -23,6 +24,7 @@ p {
   height: 80px;
   margin-left: auto;
   margin-right: auto;
+  border-bottom: 1px solid #ececec;
 }
 .header-nav {
   height: 80px;
@@ -127,6 +129,7 @@ body {
   color: var(--main-color);
 }
 .hero {
+  display: block;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -135,8 +138,7 @@ body {
   text-transform: uppercase;
   color: var(--third-main-color);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  margin-top: 0;
-  margin-bottom: 30px;
+  margin: auto;
   width: 696px;
 }
 .hero-button {
@@ -154,21 +156,12 @@ body {
   border-radius: 4px;
   padding: 10px 32px;
   min-width: 216px;
-  margin-left: 240px;
+  margin: auto;
+  margin-top: 30px;
 }
 .hero-section {
   padding-top: 200px;
-  padding-left: 452px;
   padding-bottom: 200px;
-}
-.hero-button:hover {
-  background-color: #188ce8;
-  cursor: pointer;
-}
-.hero-button:focus {
-  background-color: #188ce8;
-}
-.conteiner-hero {
   width: 100%;
   max-width: 1600px;
   padding-left: 15px;
@@ -176,6 +169,13 @@ body {
   margin-left: auto;
   margin-right: auto;
   background: #2f303a;
+}
+.hero-button:hover {
+  background-color: #188ce8;
+  cursor: pointer;
+}
+.hero-button:focus {
+  background-color: #188ce8;
 }
 .visually-hidden {
   position: absolute;
@@ -189,15 +189,12 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
-
-.conteiner-benefits {
+.benefits-section {
   display: flex;
   width: 100%;
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-}
-.benefits-section {
   padding-top: 94px;
   padding-bottom: 94px;
   padding-left: 215px;
@@ -207,6 +204,7 @@ body {
   display: flex;
   justify-content: center;
   padding: 0;
+  margin: auto;
 }
 .conteiner-benefits-li:last-child {
   margin-right: 0;
@@ -242,12 +240,12 @@ body {
   padding: 0;
 }
 .container-works {
-  display: flex;
   width: 100%;
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
 }
+
 .img-works {
   display: flex;
   flex-wrap: nowrap;
@@ -269,16 +267,13 @@ body {
   margin: 0;
   margin-bottom: 50px;
 }
-.team {
-  margin-top: 94px;
-}
-.conteiner-team {
-  display: flex;
+.section-team {
   width: 100%;
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
   background: #f5f4fa;
+  padding-top: 94px;
 }
 .team-list {
   display: flex;
@@ -289,7 +284,6 @@ body {
   padding: 0;
   padding-bottom: 94px;
 }
-
 .benefits-li,
 .works-li,
 .our-team,
