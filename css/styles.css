@@ -17,10 +17,13 @@ li,
 p {
   margin: 0;
 }
-
 .conteiner {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header {
   width: 100%;
-  max-width: 1600px;
   height: 80px;
   margin-left: auto;
   margin-right: auto;
@@ -31,8 +34,8 @@ p {
   align-items: center;
   display: flex;
   justify-content: center;
-  padding-left: 215px;
-  padding-right: 215px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .conteiner-header-links {
@@ -197,8 +200,8 @@ body {
   margin-right: auto;
   padding-top: 94px;
   padding-bottom: 94px;
-  padding-left: 215px;
-  padding-right: 215px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .conteiner-benefits-li {
   display: flex;
@@ -249,8 +252,8 @@ body {
 .img-works {
   display: flex;
   flex-wrap: nowrap;
-  margin-right: 215px;
-  margin-left: 215px;
+  margin-right: 15px;
+  margin-left: 15px;
   column-gap: 30px;
   padding: 0;
   padding-bottom: 94px;
@@ -278,8 +281,8 @@ body {
 .team-list {
   display: flex;
   flex-wrap: nowrap;
-  margin-right: 215px;
-  margin-left: 215px;
+  margin-right: 15px;
+  margin-left: 15px;
   column-gap: 30px;
   padding: 0;
   padding-bottom: 94px;
@@ -344,8 +347,7 @@ body {
 }
 .footer-section {
   padding-top: 60px;
-  padding-left: 215px;
-  padding-right: 1240;
+  padding-left: 15px;
   padding-bottom: 161px;
 }
 .footer-address {
@@ -381,7 +383,7 @@ body {
   column-gap: 8px;
 }
 .portfolio-li-conteiner {
-  width: 1600px;
+  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -422,9 +424,10 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-color-text);
+  margin-left: 24px;
 }
 .products-ul {
-  width: 1600px;
+  max-width: 1600px;
   display: flex;
   flex-wrap: wrap;
   background-color: #ffffff;
@@ -432,8 +435,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   gap: 30px;
-  padding-left: 215px;
-  padding-right: 215px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .products-of-company {
   width: 370px;
@@ -453,4 +456,5 @@ body {
   line-height: 1.9;
   letter-spacing: 0.03em;
   color: var(--second-main-color);
+  margin-left: 24px;
 }
