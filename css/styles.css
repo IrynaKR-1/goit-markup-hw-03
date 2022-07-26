@@ -35,8 +35,6 @@ p {
   align-items: center;
   display: flex;
   justify-content: center;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .conteiner-header-links {
@@ -241,16 +239,14 @@ body {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 94px;
 }
 
 .img-works {
   display: flex;
   flex-wrap: nowrap;
-  margin-right: 15px;
-  margin-left: 15px;
   column-gap: 30px;
   padding: 0;
-  padding-bottom: 94px;
 }
 .works,
 .team {
@@ -269,15 +265,13 @@ body {
   margin-right: auto;
   background: #f5f4fa;
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 .team-list {
   display: flex;
   flex-wrap: nowrap;
-  margin-right: 15px;
-  margin-left: 15px;
   column-gap: 30px;
   padding: 0;
-  padding-bottom: 94px;
 }
 .benefits-li,
 .works-li,
