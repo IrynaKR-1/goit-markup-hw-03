@@ -21,9 +21,10 @@ p {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .header {
-  width: 100%;
   height: 80px;
   margin-left: auto;
   margin-right: auto;
@@ -165,8 +166,6 @@ body {
 .hero-section {
   padding-top: 200px;
   padding-bottom: 200px;
-  width: 100%;
-  max-width: 1600px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -194,10 +193,6 @@ body {
 }
 .benefits-section {
   display: flex;
-  width: 100%;
-  max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
   padding-top: 94px;
   padding-bottom: 94px;
   padding-left: 15px;
@@ -237,14 +232,13 @@ body {
 
 .benefits-lists {
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--second-main-color);
   padding: 0;
 }
 .container-works {
   width: 100%;
-  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -271,8 +265,6 @@ body {
   margin-bottom: 50px;
 }
 .section-team {
-  width: 100%;
-  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
   background: #f5f4fa;
@@ -324,12 +316,6 @@ body {
   padding: 0;
   margin: 0;
 }
-.conteiner-footer {
-  width: 100%;
-  max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
-}
 .footer-ul {
   padding: 0;
 }
@@ -348,7 +334,10 @@ body {
 .footer-section {
   padding-top: 60px;
   padding-left: 15px;
-  padding-bottom: 161px;
+  padding-bottom: 60px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .footer-address {
   font-style: normal;
@@ -375,22 +364,17 @@ body {
 
 /* portfolio */
 .portfolio-li {
-  margin-bottom: 50px;
   padding: 0;
   flex-wrap: nowrap;
   display: flex;
   justify-content: center;
   column-gap: 8px;
 }
-.portfolio-li-conteiner {
-  max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
+.portfolio-section {
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
-.portfolio-items {
-  margin-top: 94px;
-  padding: 0;
-}
+
 .button-portfolio:hover {
   background-color: var(--main-color);
 }
@@ -427,7 +411,6 @@ body {
   margin-left: 24px;
 }
 .products-ul {
-  max-width: 1600px;
   display: flex;
   flex-wrap: wrap;
   background-color: #ffffff;
@@ -435,9 +418,12 @@ body {
   margin-left: auto;
   margin-right: auto;
   gap: 30px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0;
 }
+.products-section {
+  padding-bottom: 94px;
+}
+
 .products-of-company {
   width: 370px;
   height: 404px;
@@ -448,9 +434,7 @@ body {
   background: #ffffff;
   border: 1px solid #eeeeee;
 }
-.products-of-company:nth-last-child(-n + 3) {
-  margin-bottom: 94px;
-}
+
 .product-name {
   font-size: 16px;
   line-height: 1.9;
