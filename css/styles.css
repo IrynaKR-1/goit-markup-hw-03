@@ -164,8 +164,6 @@ body {
 .hero-section {
   padding-top: 200px;
   padding-bottom: 200px;
-  padding-left: 15px;
-  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
   background: #2f303a;
@@ -193,8 +191,6 @@ body {
   display: flex;
   padding-top: 94px;
   padding-bottom: 94px;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 .conteiner-benefits-li {
   display: flex;
@@ -298,7 +294,7 @@ body {
   color: var(--main-color-text);
   padding: 0;
   margin-bottom: 10px;
-  margin-top: 30;
+  margin-top: 30px;
   margin-left: 0;
   margin-right: 0;
 }
@@ -321,14 +317,14 @@ body {
   letter-spacing: 0.03em;
   color: var(--third-main-color);
 }
-.footer-background {
+.footer-section {
   background: #2f303a;
   height: 252px;
-}
-.footer-section {
   padding-top: 60px;
-  padding-left: 15px;
   padding-bottom: 60px;
+}
+.footer-conteiner {
+  padding-left: 15px;
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -341,6 +337,10 @@ body {
   color: var(--third-main-color);
   padding: 0;
   margin: 0;
+  margin-bottom: 9px;
+}
+.footer-li {
+  margin-bottom: 9px;
 }
 
 .footer-contacts {
@@ -363,10 +363,11 @@ body {
   display: flex;
   justify-content: center;
   column-gap: 8px;
+  margin-bottom: 50px;
 }
 .portfolio-section {
   padding-top: 94px;
-  padding-bottom: 50px;
+  padding-bottom: 94px;
 }
 
 .button-portfolio:hover {
@@ -402,7 +403,6 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-color-text);
-  margin-left: 24px;
 }
 .products-ul {
   display: flex;
@@ -414,13 +414,10 @@ body {
   gap: 30px;
   padding: 0;
 }
-.products-section {
-  padding-bottom: 94px;
-}
 
 .products-of-company {
   width: 370px;
-  height: 404px;
+
   list-style: none;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -434,5 +431,10 @@ body {
   line-height: 1.9;
   letter-spacing: 0.03em;
   color: var(--second-main-color);
-  margin-left: 24px;
+}
+.projects-text {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
